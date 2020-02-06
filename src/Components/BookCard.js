@@ -12,7 +12,8 @@ const BookCard = (props) => {
                 <img className="img" src={props.imageURL} />
                 <CardBody>
                     <CardTitle>  {props.title}</CardTitle>
-                    <Button color="danger" className="button"><div className="font-button">See more</div></Button>
+                    <Button color="danger" className="button" onClick={props.del}><div className="font-button">Delete</div></Button>
+                    <Button color="success" className="font button left"  onClick={props.update}>Update</Button>
                 </CardBody>
             </Card>
 
