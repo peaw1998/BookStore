@@ -1,16 +1,45 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Kanit&display=swap');
+
+.font{
+  font-family: 'Kanit', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.font-button{
+  font-family: 'Kanit', sans-serif;
+  font-size: 11px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.br{
+  margin-top: 15px;
+}
+
+.left{
+  margin-left: 15px;
+}
+
+.img{
+  width: 180px;
+  height: 250px;
+}
+
+.button{
+  width: 80px;
+  height: 40px;
+
 }
 
 .App-header {
@@ -22,17 +51,4 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
